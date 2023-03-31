@@ -1,0 +1,315 @@
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+    max-width: calc(100% - 200px);;
+}
+:root{
+    --color--one:#124265;
+    --color--two:#fff;
+    --color--therr:#326CA6;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+/* than1  */
+.than1{
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    z-index: 9999;
+}
+.than1 .xet{
+    align-items: center;
+    padding: 15px 5px;
+}
+.than1 a{
+    text-decoration: none;
+}
+.than1 .than1-2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.than1 .than1-2 .than1-2-1{
+    padding: 10px 15px;
+    background-color: var(--color--therr);
+    border-radius: 10px;
+}
+.than1 .than1-2 .than1-2-1 a{
+    color: #fff;
+}
+/* end than1 */
+/* than2  */
+.than2{
+    background-image: url(./hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.than2 .than2-1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.than2 .than2-1 h1{
+    font-size: 50px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    color: var(--color--one);
+}
+.than2 .than2-1 p{
+    font-size: 20px;
+}
+.than2 .than2-1 .than2-1-1{
+    width: 200px;
+    padding: 15px 20px;
+    background-color: var(--color--therr);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.than2 .than2-1 .than2-1-1 a{
+    color: var(--color--two);
+    font-size: 15px;
+    text-decoration: none;
+}
+.than2 .than2-2{
+    padding-bottom: 80px;
+}
+.than2 .than2-2 .than2-2-1{
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.than2 .than2-2 .than2-2-1 i{
+    font-size: 30px;
+    color: var(--color--therr);
+    margin: 0px;
+}
+.than2 .than2-2 .than2-2-1 h2{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: var(--color--one);
+}
+/* end than2  */
+/* than3 */
+.than3{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.box{
+    text-align: center;
+}
+.box h2{
+    font-size: 30px;
+    color: var(--color--one);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.box p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 20px;
+}
+.than3 .than3-2 .than3-2-1 li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.than3 .than3-2 .than3-2-1 li i{
+    margin-right: 5px;
+    color: var(--color--therr);
+}
+.than3 .than3-2 .than3-2-1 li p{
+    margin: 0px;
+}
+.than3 .than3-2 .than3-2-2 p{
+    margin-bottom: 25px;
+}
+.than3 .than3-2 .than3-2-2 .than3-2-2-1 a{
+    padding: 7px 30px;
+    border: 2px solid var(--color--therr);
+    color: var(--color--therr);
+    text-decoration: none;
+    border-radius: 10px;
+}
+.than3 .than3-2 .than3-2-2 .than3-2-2-1 a:hover{
+    background-color: var(--color--therr);
+    color: #fff;
+}
+/* end than3 */
+/* than4  */
+.than4{
+    background-color: #F8FBFE;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.than4 .than4-1{
+    text-align: center;
+}
+.than4 .than4-1 p{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--color--one);
+    margin: 0px;
+}
+.than4 .than4-1 span{
+    font-size: 20px;
+    color: var(--color--therr);
+}
+/* end than4 */
+/* than5  */
+.than5{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.than5 .than5-1{
+    position: relative;
+}
+.than5 .than5-1 img{
+    width: 100%;
+}
+.than5 .than5-1 .than5-1-1{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: var(--color--therr);
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 50px);
+    right: calc(50% - 50px);
+}
+.than5 .than5-1 .than5-1-1 i{
+    font-size: 25px;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 9px);
+}
+.than5 .than5-2 h2{
+    color: var(--color--one);
+    font-size: 25px;
+    margin: 0px;
+}
+.than5 .than5-2 .than5-2-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.than5 .than5-2 ul{
+    padding-bottom: 20px;
+}
+.than5 .than5-2 ul li{
+    display: flex;
+    align-items: center;
+}
+.than5 .than5-2 ul li i{
+    margin-right: 5px;
+    color: var(--color--therr);
+}
+/* end than5  */
+/* than6 */
+.than6{
+    background-color: #F8FBFE;
+    padding-top: 20px;
+}
+.than6 .xet1{
+    align-items: center;
+}
+.than6 .than6-1{
+    text-align: center;
+}
+.than6 .than6-1 img{
+    width: 100px;
+    padding: 15px 0;
+}
+/* end than6  */
+/* than7 */
+.than7{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.than7 .than7-2 .than7-2-1{
+    text-align: center;
+}
+.than7 .than7-2 .than7-2-1 img{
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.than7 .than7-2 .than7-2-1-1{
+    position: relative;
+}
+.than7 .than7-2 .than7-2-1-1 p::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid #f3f9fd;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 20px);
+}
+.than7 .than7-2 .than7-2-1 .than7-2-1-1{
+    background-color: #F3F9FD;
+    padding: 15px;
+    border-radius: 10px;
+}
+.than7 .than7-2 .than7-2-1 i{
+    display: inline;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.than7 .than7-2 .than7-2-1 i:nth-child(2){
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.than7 .than7-2 .than7-2-1 h3{
+    font-size: 20px;
+    color: black;
+}
+.than7 .than7-2 .than7-2-1 h4{
+    font-size: 15px;
+    color:#A2A2A2 ;
+}
+/* end than7 */
+/* than 8 */
+.than8{
+    background-color: #f8fbfe;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.than8 .xet2{
+    padding: 15px;
+}
+.than8 .xet2 .than8-2-1{
+    padding: 70px 20px ;
+    text-align: center;
+    margin-bottom: ;
+    background-color: #fff;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+    border-radius: 10px;
+}
+.than8 .xet2 .icon{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.than8 .xet2 .icon i{
+    color: var(--color--therr);
+    font-size: 40px;
+    position: absolute;
+    top: calc(50% - 20px);
+    right: calc(50% - 20px);
+}
+/* end than8 */
